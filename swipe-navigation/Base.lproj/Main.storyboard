@@ -41,13 +41,13 @@
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h32-a0-azB" userLabel="left-container">
-                                <rect key="frame" x="-375" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="-375.5" y="0.0" width="375" height="667"/>
                                 <connections>
                                     <segue destination="2aK-xN-5zk" kind="embed" id="qej-zz-S3a"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ua-Ud-MKs" userLabel="right-container">
-                                <rect key="frame" x="374" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="374.5" y="0.0" width="375" height="667"/>
                                 <connections>
                                     <segue destination="dsx-mT-EXP" kind="embed" id="dP7-qW-zYy"/>
                                 </connections>
@@ -119,7 +119,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Q9E-f1-ntT">
             <objects>
-                <navigationController storyboardIdentifier="hhhh" automaticallyAdjustsScrollViewInsets="NO" id="JXi-Rm-gwQ" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavigationVC" automaticallyAdjustsScrollViewInsets="NO" id="JXi-Rm-gwQ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="OgG-mV-g7e">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

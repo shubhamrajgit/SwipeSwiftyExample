@@ -12,9 +12,7 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let stry = self.storyboard?.instantiateViewController(withIdentifier: "hhhh")
-//        let vc = ViewController(centerViewController: stry!)
-//        let nav = UINavigationController(rootViewController: vc)
+        let stry = self.storyboard?.instantiateViewController(withIdentifier: "MainNavigationVC")
         self.present(stry!, animated: true, completion: nil)
         // Do any additional setup after loading the view.
     }
